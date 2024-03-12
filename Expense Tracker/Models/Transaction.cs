@@ -11,6 +11,8 @@ namespace Expense_Tracker.Models
         public int CategoryId { get; set; }
         public Category Category { get; set; }
 
+        public int Amount { get; set; }
+
         [Column(TypeName = "nvarchar(10)")]
         public string? Note { get; set; }
 
